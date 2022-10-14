@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MilkFactoryPanel: {fileID: 308341812}
-  WoolFactoryPanel: {fileID: 0}
+  WoolFactoryPanel: {fileID: 1818335360}
 --- !u!4 &505331428
 Transform:
   m_ObjectHideFlags: 0

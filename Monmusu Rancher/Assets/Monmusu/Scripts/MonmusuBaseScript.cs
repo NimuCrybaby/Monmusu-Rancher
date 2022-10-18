@@ -17,6 +17,7 @@ public enum MonmusuStats
 public abstract class MonmusuBaseScript : ScriptableObject
 {
     public GameObject prefab;
+    public Sprite sprite;
     public MonmusuType type;
     [TextArea(15,10)]
     public string description;

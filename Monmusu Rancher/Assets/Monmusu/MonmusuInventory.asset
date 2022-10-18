@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45a717ab23acefa4ba637f8e10ba8249, type: 3}
-  m_Name: Jozefina
+  m_Script: {fileID: 11500000, guid: 3437d854d94c91948a007fe4b4f8cae4, type: 3}
+  m_Name: MonmusuInventory
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  sprite: {fileID: 21300000, guid: cdd0b6012a1c60f4894c703cfe3690b1, type: 3}
-  type: 0
-  description: kravicka co produkuje mliecko
-  BaseProductionStat: 0
+  Container: []

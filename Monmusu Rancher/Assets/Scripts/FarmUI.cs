@@ -8,6 +8,7 @@ public class FarmUI : MonoBehaviour
     public GameObject MilkFactoryPanel;
     public GameObject WoolFactoryPanel;
     public GameObject DefaultPanel;
+    public GameObject CowInventoryPanel;
 
     public void OpenMilkFactory(){
         MilkFactoryPanel.SetActive(true);
@@ -28,5 +29,11 @@ public class FarmUI : MonoBehaviour
     public void CloseWoolFactory(){
         WoolFactoryPanel.SetActive(false);
         DefaultPanel.SetActive(true);
+    }
+    public void OpenCowInventoryPanel(){
+        CowInventoryPanel.SetActive(true);
+    }
+    public void CloseCowInventoryPanel(){
+        CowInventoryPanel.SetActive(false);
     }
 }

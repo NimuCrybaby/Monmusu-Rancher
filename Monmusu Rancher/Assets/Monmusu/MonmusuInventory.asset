@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3437d854d94c91948a007fe4b4f8cae4, type: 3}
   m_Name: MonmusuInventory
   m_EditorClassIdentifier: 
-  Container: []
+  Container:
+  - item: {fileID: 11400000, guid: 45a3170283f70e14e9178bc5bc9752dd, type: 2}
+    amount: 1

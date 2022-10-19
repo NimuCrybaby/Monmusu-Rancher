@@ -5,15 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public InventoryObject inventory;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Monmusu;
 
-    // Update is called once per frame
-    void Update()
+    public void AddMonMusu()
     {
-        
+        var item = Monmusu.GetComponent<Item>();
+        inventory.AddItem(item.item, 1);
+        Debug.Log("added monmusu");
     }
 }

@@ -5,12 +5,20 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public InventoryObject inventory;
-    public GameObject Monmusu;
+    public GameObject CowGirl;
+    public GameObject SheepGirl;
 
-    public void AddMonMusu()
+    public void AddCowGirl()
     {
-        var item = Monmusu.GetComponent<Item>();
+        var item = CowGirl.GetComponent<Item>();
         inventory.AddItem(item.item, 1);
-        Debug.Log("added monmusu");
+        Debug.Log("added cowgirl");
+    }
+
+     public void AddSheepGirl()
+    {
+        var item = SheepGirl.GetComponent<Item>();
+        inventory.AddItem(item.item, 1);
+        Debug.Log("added sheepgirl");
     }
 }

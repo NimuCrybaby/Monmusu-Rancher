@@ -6,6 +6,10 @@ using TMPro;
 public class ResourceManagmentTest : MonoBehaviour
 {
     //CELY TENTO SKRIPT JE MRTE NA KOKOT
+
+    //MONEY
+    public static int Money;
+    public TextMeshProUGUI MoneyText;
     //MILK
     public static int MilkResource;
     public static int MilkResourceGatheringRate;
@@ -40,6 +44,8 @@ public class ResourceManagmentTest : MonoBehaviour
         WoolResourceGatheringRate = WoolResourceScript.WoolGatheringRate;
         SilkResourceGatheringRate = SilkResourceScript.SilkGatheringRate;
         //AJ TOTO JE NAPIČU
+        //MONEY
+        MoneyText.text = Player.CashMoney.ToString();
         //MILK
         MilkResourceAmount.text = MilkResource.ToString();
         MilkResourceText.text = MilkResourceGatheringRate.ToString() + "/min";

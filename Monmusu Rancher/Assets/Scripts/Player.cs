@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static int CashMoney = 0;
     public InventoryObject inventory;
     public GameObject CowGirl;
     public GameObject SheepGirl;

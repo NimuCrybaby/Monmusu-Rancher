@@ -135,6 +135,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5100627830786452793, guid: 0ebf8ea773c435b49aab36289e9d4ae6, type: 3}
+      propertyPath: CowGirl
+      value: 
+      objectReference: {fileID: 4733351957573662890, guid: 1261fee2d3463584e9e38c03caf444d6, type: 3}
+    - target: {fileID: 5100627830786452793, guid: 0ebf8ea773c435b49aab36289e9d4ae6, type: 3}
       propertyPath: Monmusu
       value: 
       objectReference: {fileID: 2085375284}

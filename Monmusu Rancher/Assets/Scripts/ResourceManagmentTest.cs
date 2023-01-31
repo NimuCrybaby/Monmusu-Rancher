@@ -8,7 +8,7 @@ public class ResourceManagmentTest : MonoBehaviour
     //CELY TENTO SKRIPT JE MRTE NA KOKOT
 
     //MONEY
-    public static int Money;
+    public int Money = Player.CashMoney;
     public TextMeshProUGUI MoneyText;
     //MILK
     public static int MilkResource;
@@ -34,7 +34,7 @@ public class ResourceManagmentTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
